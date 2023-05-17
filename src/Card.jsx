@@ -5,6 +5,7 @@ function Card() {
   return (
     <main>
       <h1>First React Project Deployment</h1>
+      <h2>This is a test!</h2>
     </main>
   )
 }
