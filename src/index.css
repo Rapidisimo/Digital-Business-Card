@@ -105,8 +105,8 @@ button:hover {
 .more-info {
   background-color: #F5F5F5;
   width: 317px;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin: 0 auto;
   padding: 1rem 1.6rem;
 }

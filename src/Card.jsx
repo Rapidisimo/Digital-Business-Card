@@ -9,7 +9,7 @@ function Card() {
       </section>
       <h1>Josue Rodriguez</h1>
       <h3>Frontend Developer</h3>
-      <h4><a href="https://josue.me" className='website'>www.josue.me</a></h4>
+      <h4><a href="https://josue.me" target='_blank' className='website'>www.josue.me</a></h4>
       <details>
         <summary>View QR Code</summary>
         <img src={qrCode} className='qrcode' alt="QR Code for contact details" />
