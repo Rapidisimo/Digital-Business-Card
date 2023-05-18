@@ -7,7 +7,7 @@ function Card() {
       <section className='image'>
         <img src={portrait} className='portrait' alt="Portrait of Josue" />
       </section>
-      <h1>Josue Rodriguez</h1>
+      <h1>Josu&eacute; Rodriguez</h1>
       <h3>Frontend Developer</h3>
       <h4><a href="https://josue.me" target='_blank' className='website'>www.josue.me</a></h4>
       <details>

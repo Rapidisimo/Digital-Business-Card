@@ -1,13 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import Card from './Card.jsx'
-import Info from './Info.jsx'
-// import interests from './Me.jsx'
-// import About from './About.jsx'
-// import Interests from './Interests.jsx'
 import './index.css'
+import Card from './Card.jsx'
 import myData from './Me.jsx'
+import Info from './Info.jsx'
+import Footer from './Footer.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -21,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       title={myData.Interests.title}
       text={myData.Interests.text} 
     />
+    <Footer />
   </React.StrictMode>,
 )
 
