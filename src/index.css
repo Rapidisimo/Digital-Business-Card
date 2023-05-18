@@ -1,1 +1,144 @@
 @import url(reset.css);
+
+* {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  max-width: 550px;
+  background-color: #23252C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #F5F5F5;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 1.6rem;
+  width: 317px;
+  margin: 60px auto 0 auto;
+}
+
+main h1 {
+  font-weight: 600;
+  font-size: 1.5625rem;
+}
+
+main h3 {
+  color: #F47D27;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.image {
+  width: 317px;
+  height: 317px;
+  margin-bottom: 1.2rem;
+}
+
+.portrait {
+  width: 100%;
+  max-height: 317px;
+  object-fit: cover;
+  object-position: 0 60%;
+  border-radius: 10px 10px 0 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+details {
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+summary {
+  padding: .4rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button:last-child {
+  background-color: #297FE5;
+  background-image: url(./assets/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: 15% center;
+  color: white;
+  padding-left: 1.2rem;
+}
+
+button:first-child {
+  background-image: url(./assets/Mail.svg);
+  background-repeat: no-repeat;
+  background-position: 25% center;
+  padding-left: 1.2rem;
+}
+
+button {
+  background-color: #FFF;
+  border: 1px solid #D1D5DB;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid hsla(19, 66%, 63%, 0.698);
+}
+
+.more-info {
+  background-color: #F5F5F5;
+  width: 317px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem 1.6rem;
+}
+
+.more-info h2 {
+  font-size: 1rem;
+  margin-bottom: .2rem;
+}
+
+.more-info p {
+  font-size: .75rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+
+a {
+  text-decoration-color: rgb(134, 189, 236);
+  color: black;
+  font-size: .75rem;
+}
+
+a,
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+}
+
+a:visited {
+  color: rgb(51, 50, 50);
+}
+
+a:hover {
+  text-decoration-color: rgb(223, 138, 98);
+}

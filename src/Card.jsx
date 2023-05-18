@@ -1,11 +1,23 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import portrait from './assets/Josue-Rodriguez.jpg';
+import qrCode from './assets/qr-code.png'
 
 function Card() {
   return (
     <main>
-      <h1>First React Project Deployment</h1>
-      <h2>This is a test!</h2>
+      <section className='image'>
+        <img src={portrait} className='portrait' alt="Portrait of Josue" />
+      </section>
+      <h1>Josue Rodriguez</h1>
+      <h3>Frontend Developer</h3>
+      <h4><a href="https://josue.me" className='website'>www.josue.me</a></h4>
+      <details>
+        <summary>View QR Code</summary>
+        <img src={qrCode} className='qrcode' alt="QR Code for contact details" />
+      </details>
+      <section className='buttons'>
+        <button>Email</button>
+        <button>LinkedIn</button>
+      </section>
     </main>
   )
 }
