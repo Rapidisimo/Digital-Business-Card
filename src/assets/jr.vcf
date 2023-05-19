@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 13.3.1//EN
+N:Rodriguez;Josué;;;
+FN:Josué Rodriguez
+X-PHONETIC-FIRST-NAME:Hosu-eh
+EMAIL;type=INTERNET;type=WORK:hello@josue.me
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:(212) 867-5309
+X-SOCIALPROFILE;type=twitter:http://twitter.com/AnotherDK
+X-SOCIALPROFILE;type=LinkedIn:https://www.linkedin.com/in/josue-rodriguez-/
+item1.URL;type=pref:https://josue.me
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

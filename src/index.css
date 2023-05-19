@@ -190,7 +190,7 @@ footer li {
 }
 
 
-
+/* Auto switching theme based on user/system prefrences */
 @media (prefers-color-scheme: dark) {
   body,
   a,

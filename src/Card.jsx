@@ -12,7 +12,7 @@ function Card() {
       <h4><a href="https://josue.me" target='_blank' className='website'>www.josue.me</a></h4>
       <details>
         <summary>View QR Code</summary>
-        <img src={qrCode} className='qrcode' alt="QR Code for contact details" />
+        <a href="assets/jr.vcf" target='_blank'><img src={qrCode} className='qrcode' alt="QR Code for contact details" /></a>
       </details>
       <section className='buttons'>
         <button>Email</button>
