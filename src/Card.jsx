@@ -21,7 +21,7 @@ function Card(props) {
           <button ><i className="fa-solid fa-envelope"></i>Email</button>
         </a>
         <a href={props.LinkedIn} target='_blank'>
-          <button className='linkedin'><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
+          <button className='linkedin'><i className="fa-brands fa-linkedin"></i>LinkedIn</button>
         </a>
       </section>
     </main>

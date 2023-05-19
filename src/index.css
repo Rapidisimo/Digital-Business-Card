@@ -15,7 +15,6 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: hsl(228, 4%, 27%);
-  min-height: 100dvh;
 }
 
 .wrapper {
@@ -25,6 +24,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  min-height: 100dvh;
 }
 
 main {
