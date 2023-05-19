@@ -17,8 +17,8 @@ function Card() {
         </a>
       </details>
       <section className='buttons'>
-        <button>Email</button>
-        <button>LinkedIn</button>
+        <button ><i className="fa-solid fa-envelope"></i>Email</button>
+        <button><i class="fa-brands fa-linkedin"></i>LinkedIn</button>
       </section>
     </main>
   )
