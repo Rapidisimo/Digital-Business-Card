@@ -75,6 +75,13 @@ summary {
   padding: .4rem;
 }
 
+.qr-heading {
+  font-size: .8rem;
+  font-weight: 400;
+  margin: 0;
+  color: #b84545;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -94,7 +101,7 @@ button {
   /* Testing comment */
 }
 
-button:last-child {
+.linkedin {
   background-color: #297FE5;
   color: var(--card-bkg-color);
 }

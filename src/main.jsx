@@ -22,10 +22,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Footer />
   </React.StrictMode>,
 )
-
-// root.render(
-//   <Comment
-//     date={comment.date}
-//     text={comment.text}
-//     author={comment.author} />
-// );
