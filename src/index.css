@@ -15,6 +15,7 @@
 body {
   font-family: 'Inter', sans-serif;
   background-color: hsl(228, 4%, 27%);
+  min-height: 100dvh;
 }
 
 .wrapper {
@@ -47,8 +48,6 @@ main h3 {
 }
 
 .image {
-  width: 317px;
-  height: 317px;
   margin-bottom: 1.2rem;
 }
 
@@ -66,6 +65,7 @@ h4 {
   margin-bottom: 1rem;
 }
 
+/* Accordion */
 details {
   margin-bottom: 1.2rem;
   cursor: pointer;
@@ -74,6 +74,7 @@ details {
 summary {
   padding: .4rem;
 }
+/* Accordion End */
 
 .qr-heading {
   font-size: .8rem;
@@ -82,59 +83,7 @@ summary {
   color: #b84545;
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-button {
-  background-color: #FFF;
-  color: #23252C;
-  border: 1px solid #D1D5DB;
-  min-width: 115px;
-  height: 34px;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  cursor: pointer;
-  /* Testing comment */
-}
-
-.linkedin {
-  background-color: #297FE5;
-  color: var(--card-bkg-color);
-}
-
-button i {
-  margin-right: .4rem;
-  vertical-align: baseline;
-}
-
-button:hover {
-  border: 1px solid hsla(19, 66%, 63%, 0.698);
-}
-
-.more-info {
-  background-color: var(--card-bkg-color);
-  width: 317px;
-  /* display: flex;
-  flex-wrap: wrap; */
-  margin: 0 auto;
-  padding: 1rem 1.6rem;
-}
-
-.more-info h2 {
-  font-size: 1rem;
-  margin-bottom: .2rem;
-}
-
-.more-info p {
-  font-size: .75rem;
-  font-weight: 300;
-  line-height: 1.2rem;
-}
-
+/* Links and Buttons */
 a,
 a:visited {
   text-decoration-color: var(--link-underline-color);
@@ -153,21 +102,41 @@ a:hover {
   text-decoration-color: rgb(223, 138, 98);
 }
 
-footer {
+.buttons {
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: var(--soft-gray-color);
-  width: 317px;
-  margin: 0 auto;
-  border-radius: 0 0 10px 10px;
+  gap: 2rem;
 }
 
-footer ul {
-  display: flex;
-  gap: 1.6rem;
-  padding: 0;
+button {
+  background-color: #FFF;
+  color: #23252C;
+  border: 1px solid #D1D5DB;
+  min-width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  cursor: pointer;
 }
 
+.linkedin {
+  background-color: #297FE5;
+  color: var(--card-bkg-color);
+}
+
+/* fontawesome icon adjustment */
+button i {
+  margin-right: .4rem;
+  vertical-align: baseline;
+}
+/* fontawesome icon adjustment End*/
+
+button:hover {
+  border: 1px solid hsla(19, 66%, 63%, 0.698);
+}
+
+/* Social Media CSS in Footer*/
 .social-media {
   width: 25px;
   height: 25px;
@@ -192,7 +161,45 @@ footer li {
 .github svg:hover {
   fill: hsla(0, 0%, 0%, 0.358);
 }
+/* Social Media CSS in Footer End*/
+/* Links and Buttons End */
 
+/* About and Interests Sections */
+.more-info {
+  background-color: var(--card-bkg-color);
+  width: 317px;
+  margin: 0 auto;
+  padding: 1rem 1.6rem;
+}
+
+.more-info h2 {
+  font-size: 1rem;
+  margin-bottom: .2rem;
+}
+
+.more-info p {
+  font-size: .75rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+/* About and Interests Sections End */
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--soft-gray-color);
+  width: 317px;
+  margin: 0 auto 4rem;
+  border-radius: 0 0 10px 10px;
+}
+
+footer ul {
+  display: flex;
+  gap: 1.6rem;
+  padding: 0;
+}
+/* Footer Section End*/
 
 /* Auto switching theme based on user/system prefrences */
 @media (prefers-color-scheme: dark) {

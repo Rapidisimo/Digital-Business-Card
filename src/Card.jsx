@@ -1,6 +1,3 @@
-import portrait from './assets/Josue-Rodriguez.jpg';
-import qrCode from './assets/qr-code.png'
-
 function Card(props) {
   return (
     <main>
@@ -9,12 +6,14 @@ function Card(props) {
       </section>
       <h1>{props.Name}</h1>
       <h3>{props.Title}</h3>
-      <h4><a href={props.Website} target='_blank' className='website'>{props.WebShort}</a></h4>
+      <h4>
+        <a href={props.Website} target='_blank' className='website'>{props.WebShort}</a>
+      </h4>
       <details>
         <summary>View QR Code</summary>
         <h5 className='qr-heading'>Click or scan QRCode to download vcard</h5>
         <a href={props.Vfile} download={props.Vname} target='_blank'>
-          <img src={qrCode} className='qrcode' alt="QR Code for contact details" />
+          <img src={props.QRCode} className='qrcode' alt="QR Code for contact details" />
         </a>
       </details>
       <section className='buttons'>
