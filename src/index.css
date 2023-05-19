@@ -85,7 +85,7 @@ summary {
 button {
   background-color: #FFF;
   border: 1px solid #D1D5DB;
-  width: 115px;
+  min-width: 115px;
   height: 34px;
   border-radius: 6px;
   font-size: 0.875rem;
