@@ -1,9 +1,11 @@
 # Scrimba Solo Project - Digital Business Card
 
 ## Live Version >> ➡️ [View Here](https://rapidisimo.github.io/digital-business-card/)
+[GitHub Repository](https://github.com/Rapidisimo/digital-business-card)
 
 ## My Objectives
 Fulfill requirements for the project and come up with stretch goals for my self.
+Also setup a local enviroment (VSCode/Vite) and figure out GitHub Actions when pushing changes.
 
 ## Requirements
 1. ✅ Build from scratch / Follow design spec
