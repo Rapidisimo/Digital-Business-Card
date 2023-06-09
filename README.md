@@ -5,12 +5,12 @@
 
 ## My Objectives
 Fulfill requirements for the project and come up with stretch goals for my self.
-Also setup a local enviroment (VSCode/Vite) and figure out GitHub Actions when pushing changes.
+Also setup a local environment (VSCode/Vite) and figure out GitHub Actions when pushing changes.
 
 ## Requirements
 1. ✅ Build from scratch / Follow design spec
 2. ✅ Fill in your own information
-3. ✅ Seperate components for: 
+3. ✅ Separate components for: 
     - ✅ Info(photo, name, buttons, etc.)
     - ✅ About
     - ✅ Interests
@@ -21,7 +21,7 @@ Also setup a local enviroment (VSCode/Vite) and figure out GitHub Actions when p
 2. ✅ Add downloadable Vcard from QR Code
 3. ✅ Use props to avoid coding hard data.
 4. ✅ Use one component (Info.jsx) for both About and Interests sections.
-5. ✅ Store data seperately to update later from one place (Me.jsx).
+5. ✅ Store data separately to update later from one place (Me.jsx).
 6. ✅ Dark mode css based on system or user preference.
 
 ### Question/Challenges
